@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Main css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <!-- Boostrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- mapbox -->
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+    <title>We || Mentor</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-5 fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand"> <span class="pexa-color">Pexa</span> Mentors</a>
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <i class="fas fa-bars"></i> 
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#learn" class="nav-link"> What You'll Learn </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#questions" class="nav-link"> Questions </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link"> Contact  </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Showcase  -->
+    <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start ">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>Become a <span class="text-warning">Developer</span> </h1>
+                    <p class="lead my-4">We focus on building a community of developers who are ever ready to tackle problems by instilling in them various technologies</p>
+                    <button id="butt" type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">Start Enrolling</button>
+
+                </div>
+                <img id="dev-img" class="img-fluid w-50" src="img/undraw_Dev_focus_re_6iwt.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- News letter -->
+    <section class=" news-bg text-light p-5">
+        <div class="container">
+            <div class="d-sm-flex justify-content-between">
+                <h3 class="mb-3 mb-md-0">Sign up for our news letter</h3>
+                <div class="input-group" id="news-input">
+                    <input type="text" class="form-control" placeholder="Enter Email">
+                    <button class="btn btn-dark btn-lg" type="button" id="button-addon2">Submit</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Card placement -->
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1"> <i class="bi bi-laptop"></i></div>
+                            <h3 class="card-title mb-3">
+                                Virtual Meetups
+                            </h3>
+                            <p class="card-text"> Online meetups and virtual participation is encouraged here </p>
+                            <a href="nowhere.html" class="btn btn-primary" id="butt">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body text-center">
+                            <div class="h1"> <i class="bi bi-person-square"></i></div>
+                            <h3 class="card-title mb-3">
+                                Hybrid
+                            </h3>
+                            <p class="card-text"> This is having a meetup and having a collaborative meeting via version controller between students and mentors </p>
+                            <a href="nowhere.html" class="btn btn-dark">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1"> <i class="bi bi-people"></i></div>
+                            <h3 class="card-title mb-3">
+                                Physical Meetups
+                            </h3>
+                            <p class="card-text"> Having a meet up to dicuss tech and have a good time </p>
+                            <a href="nowhere.html" class="btn btn-primary" id="butt">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learn  -->
+
+    <section id="learn" class="p-5">
+        <div class="container">
+            <div class="row align-items-center-justify-content-between">
+                <div class="col-md">
+                    <img src="img/undraw_static_assets_rpm6.svg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md p-5">
+                    <h2>Learn the Fundamentals</h2>
+                    <p class="lead">We take you from a beginners level, past the basics into the world of web developement using technologies such as HTML5, CSS3 & JAVASCRIPT </p>
+                    <P class="lead"> We provide resources and links to several important documentations and as well provide cheat sheet</P>
+                    <a href="https://developer.mozilla.org/en-US/docs/Learn" class="btn btn-light mt-3"> <i class="bi bi-chevron-right"></i> Read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="learn" class="p-5 bg-dark text-light">
+        <div class="container">
+            <div class="row align-items-center-justify-content-between">
+                <div class="col-md p-5 ">
+                    <h2>Mobil Responsive Web apps</h2>
+                    <p class="lead ">We also teach frameworks such as <i class="fab fa-bootstrap"></i>OOTSTRAP 5, Tailwind css, React and many more</p>
+                    <P class="lead "> Meeting neccessary css concepts like flex and grid systems</P>
+                    <a href="https://www.w3schools.com/html/html_responsive.asp" class="btn btn-light mt-3 "> <i class="bi bi-chevron-right "></i> Read more</a>
+                </div>
+                <div class="col-md mx-5">
+                    <img src="img/undraw_mobile_development_8gyo.svg" class="mg-fluid w-50 mt-5" alt=" ">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- FAQ -->
+    <section id="questions" class="p-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Frequently Asked Question</h2>
+            <!-- item 1 -->
+            <div class="accordion accordion-flush" id="Question">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      How can we locate you?
+                    </button>
+                    </h2>
+
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#Question">
+                        <div class="accordion-body">We reside in abuja and intend on expanding our reach across states</div>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Is this for every one?
+                    </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#Question">
+                        <div class="accordion-body">Anyone who has interest can sign up, theres nothing special needed.</div>
+                    </div>
+                </div>
+
+                <!-- item 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                     What do I need to get started?
+                    </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#Question">
+                        <div class="accordion-body"> Just get a working laptop and watch yourself perform magic ✨</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                     Will this help me get a job?
+                    </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#Question">
+                        <div class="accordion-body"> Once you can develope it opens up doors for you in the tech industry, freelancing is an option, or just working for a tech company</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                    How do these meet ups happen
+                    </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#Question">
+                        <div class="accordion-body"> Once you're signed up information about the meetups will be disclosed </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="p-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md">
+                    <h2 class="text-center mb-4">Contact Info</h2>
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Main Location: </span> Andikan Beulah Estate
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Email: </span> Szirra@gmail.com
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Number: </span> +234 8076225652
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <div id="map"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">Copy right &copy; 2020 Pexa Tech</p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Button trigger modal -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="enrollLabel">Enroll</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="lead">Fill out this form and we will get back to you</p>
+                    <form action="Szirra@gmail.com" method="POST">
+                        <div class="mb-3">
+                            <label for="first name" class="col-form-label">
+                                First Name:
+                            </label>
+                            <input type="text" class="form-control" id="first-name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="first name" class="col-form-label">
+                                Last Name:
+                            </label>
+                            <input type="text" class="form-control" id="first-name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="first name" class="col-form-label">
+                                Email:
+                            </label>
+                            <input type="text" class="form-control" id="first-name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="first name" class="col-form-label">
+                                Phone no:
+                            </label>
+                            <input type="text" class="form-control" id="first-name">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoiYW1haW5vIiwiYSI6ImNrcmp1a3h5czBkaDcyd2xmb2FvZjR1Mm8ifQ.v-oKkjNXuKx514Y3fWuHlQ';
+        var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/streets-v11',
+            center: [9.108935, 7.3786],
+            zoom: 18
+
+        });
+    </script>
+</body>
+
+</html>
